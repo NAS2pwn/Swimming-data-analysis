@@ -42,6 +42,6 @@ Si j'ai un peu de temps, je voudrais aussi jouer avec quelques algos de ML (s'il
 
 [ ] Dockeriser l'application (c'est pas utile mais bon, pour le fun)
 
-[ ] Faire une interface en max 30 minutes en vanilla JS
+[ ] Faire une interface en max 30 minutes en vanilla JS pour jouer
 
-[ ] SI TEMPS IL Y A, jouer avec des modèles de ML
+[ ] SI TEMPS IL Y A, jouer avec des modèles de ML (ça m'étonnerais que j'ai le temps il y a du pain sur la planche)
