@@ -30,7 +30,7 @@ Si j'ai un peu de temps, je voudrais aussi jouer avec quelques algos de ML (s'il
 
 [X] Nettoyer les données
 
-[ ] Sauvegarder les données dans une base de données
+[X] Sauvegarder les données dans une base de données
 
 [ ] Analyser les données avec des requêtes SQL
 
