@@ -4,6 +4,8 @@ from app.schemas.user import UserCreate
 from app.core.config import settings
 from app.models.models import Base, User
 from app.db.session import engine
+from app.db.data_importer import DataImporter
+import os
 
 async def init_db(db: Session) -> None:
     Base.metadata.create_all(bind=engine)
@@ -18,3 +20,8 @@ async def init_db(db: Session) -> None:
         print(f"Created first admin: {user.email}")
     else:
         print("First admin already exists")
+    
+    csv_path = os.path.join(os.path.dirname(__file__), '..', '..', 'data', settings.CSV_FILENAME)
+    data_importer = DataImporter(db, csv_path)
+    data_importer.import_data()
+    

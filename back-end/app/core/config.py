@@ -10,6 +10,7 @@ class Settings(BaseSettings):
     DB_NAME: str
     FIRST_ADMIN_EMAIL: str
     FIRST_ADMIN_PASSWORD: str
+    CSV_FILENAME: str
 
     @property
     def DATABASE_URL(self) -> str:

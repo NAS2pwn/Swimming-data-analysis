@@ -36,7 +36,7 @@ Si j'ai un peu de temps, je voudrais aussi jouer avec quelques algos de ML (s'il
 
 [X] Construire le back-end façon Pydantic avec FastAPI
 
-[ ] Intégrer l'ingestion des données dans le back-end (optionnel)
+[X] Intégrer l'ingestion des données dans le back-end (optionnel)
 
 [X] Faire des tests unitaires
 
