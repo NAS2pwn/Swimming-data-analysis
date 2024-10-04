@@ -1,0 +1,21 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+    volumes:
+      - .env:/app/.env  # Monter le fichier .env dans le conteneur
+    depends_on:
+      - db
+
+  db:
+    image: postgres:13
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    environment:
+      - POSTGRES_USER=${DB_USERNAME}  # Utiliser la variable d'environnement
+      - POSTGRES_PASSWORD=${DB_PASSWORD}  # Utiliser la variable d'environnement
+      - POSTGRES_DB=${DB_NAME}  # Utiliser la variable d'environnement
+
+volumes:
+  postgres_data:

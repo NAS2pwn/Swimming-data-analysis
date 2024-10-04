@@ -38,9 +38,9 @@ Si j'ai un peu de temps, je voudrais aussi jouer avec quelques algos de ML (s'il
 
 [ ] Intégrer l'ingestion des données dans le back-end (optionnel)
 
-[ ] Faire des tests unitaires
+[X] Faire des tests unitaires
 
-[ ] Dockeriser l'application ?
+[X] Dockeriser l'application ?
 
 [ ] Faire une interface en max 30 minutes en vanilla JS pour jouer (optionnel)
 
