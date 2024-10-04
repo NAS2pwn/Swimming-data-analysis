@@ -5,7 +5,6 @@ name = "pypi"
 
 [packages]
 sqlalchemy = "*"
-fastapi = "*"
 alembic = "*"
 python-dotenv = "*"
 uvicorn = "*"
@@ -13,6 +12,8 @@ pydantic-settings = "*"
 psycopg2 = "*"
 pydantic = {extras = ["email"], version = "*"}
 passlib = "*"
+starlette = "*"
+fastapi = {extras = ["all"], version = "*"}
 
 [dev-packages]
 
